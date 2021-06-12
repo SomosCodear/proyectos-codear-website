@@ -29,10 +29,35 @@ const theme = extendTheme({
                     p: 5,
                     _hover: {
                         bg: 'codear.disco',
-                        color: 'white'
+                        color: 'white',
+                        cursor: 'pointer'
                     }
                 },
+                tag: {
+                    fontSize: 'xl',
+                    color: 'codear.shuttleGray',
+                    borderRadius: 'md',
+                    border: '1px',
+                    borderColor: 'codear.silverSand',
+                    p: 2,
+                    fontWeight: 'normal',
+                    _hover: {
+                        bg: 'codear.shuttleGray',
+                        color: 'white',
+                        cursor: 'pointer'
+                    }
+                }
             },
+        },
+        Heading: {
+            variants: {
+                sectionTitle: {
+                    color: 'codear.shuttleGray',
+                    textTransform: 'uppercase',
+                    fontSize: 'md',
+                    letterSpacing: '1px'
+                }
+            }
         }
     },
 });
