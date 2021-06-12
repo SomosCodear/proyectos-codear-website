@@ -5,7 +5,8 @@ const Header = ({
     showSearch = true,
     showCallToAction = true,
     searchText = '',
-    setSearchText = () => {}
+    setSearchText = () => {},
+    ...props
 }) => (
     <SimpleGrid 
         as="header"
@@ -13,6 +14,7 @@ const Header = ({
         autoFlow={['row', 'column']}
         justifyContent="space-between"
         alignItems="center"
+        {...props}
     >
         <Image src="/images/logo-codear.svg" />
         {showSearch ? <Box>
