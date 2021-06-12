@@ -1,0 +1,30 @@
+[
+    {
+        "id": "nodejs",
+        "name": "Node.js"
+    },
+    {
+        "id": "php",
+        "name": "PHP"
+    },
+    {
+        "id": "python",
+        "name": "Python"
+    },
+    {
+        "id": "graphic-design",
+        "name": "Diseño gráfico"
+    },
+    {
+        "id": "project-management",
+        "name": "Gestión de proyectos"
+    },
+    {
+        "id": "ux-ui",
+        "name": "Diseño UX/UI"
+    },
+    {
+        "id": "frontend",
+        "name": "Desarrollo Frontend"
+    }
+]

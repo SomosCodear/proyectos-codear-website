@@ -1,0 +1,29 @@
+[
+    {
+        "id": "encuentros-codear-landing",
+        "title": "Estamos formando un equipo para la nueva landing de Encuentros Codear",
+        "organization": "codear",
+        "image": "/images/projects/encuentros-codear-landing.png",
+        "type": "one-time",
+        "summary": "Para este 2021, queremos darle a #EncuentrosCodear una página dedicada, donde puedas explorar todo nuestro contenido, postularte a dar charlas y más.",
+        "description": "",
+        "skills": [
+            "ui-ux",
+            "frontend"
+        ]
+    },
+    {
+        "id": "codear-jobs",
+        "title": "Ayudanos a crear nuestra bolsa de trabajo",
+        "organization": "codear",
+        "image": "/images/projects/codear-jobs.png",
+        "type": "permanent",
+        "summary": "Queremos crear una plataforma de búsqueda laboral orientada a perfiles Trainee/Junior.",
+        "skills": [
+            "ui-ux",
+            "frontend",
+            "nodejs",
+            "project-management"
+        ]
+    }
+]
