@@ -1,7 +1,11 @@
-import Layout from '../components/layout';
 import { Box } from '@chakra-ui/react';
-import useSearchContext from '../hooks/use-search-context';
 import { useEffect } from 'react';
+
+import Layout from '../components/layout';
+import SearchBySkills from '../blocks/search-by-skills';
+import ProjectList from '../blocks/project-list';
+
+import useSearchContext from '../hooks/use-search-context';
 
 const IndexPage = () => {
   const {searchQuery} = useSearchContext();
@@ -12,19 +16,8 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Box>
-        Buscá por habilidades
-      </Box>
-      <Box>
-        [Lista de tags]
-      </Box>
-      <Box>
-        Todas las convocatorias
-        [filter]
-      </Box>
-      <Box>
-        [Lista de convocatorias]
-      </Box>
+      <SearchBySkills />
+      <ProjectList />
     </Layout>
   )
 };
