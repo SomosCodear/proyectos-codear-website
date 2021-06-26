@@ -16,7 +16,7 @@ const Header = ({
         alignItems="center"
         {...props}
     >
-        <Image src="/images/logo-codear.svg" />
+        <a href="/"><Image src="/images/logo-codear.svg" /></a>
         {showSearch ? <Box>
             <SearchBox 
                 searchText={searchText}
