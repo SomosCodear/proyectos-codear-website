@@ -6,7 +6,7 @@
         "image": "/images/projects/encuentros-codear-landing.png",
         "type": "one-time",
         "summary": "Para este 2021, queremos darle a #EncuentrosCodear una página dedicada, donde puedas explorar todo nuestro contenido, postularte a dar charlas y más.",
-        "description": "",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut lectus turpis neque arcu, et massa dictum pellentesque tellus. Urna in in elit mattis. Quisque diam sem lobortis duis pellentesque risus, enim. Venenatis risus fringilla pulvinar id. Aliquam integer laoreet in integer tellus. Sed suspendisse arcu, dolor, mattis congue. Sed massa velit pellentesque senectus in eu semper. Phasellus senectus viverra purus, feugiat tellus amet proin eu et. Risus, nulla amet vulputate a sed imperdiet. Nisi, diam tortor, enim integer cursus sit. Aliquam massa amet mi ut sed dignissim et pellentesque.\n\n## FEUGIAT TELLUS AMET\n\nFringilla neque mattis lobortis massa. Magna eros, id ullamcorper purus amet mauris. Pulvinar sagittis sit duis volutpat blandit lectus malesuada. Faucibus eget adipiscing ultrices et. Sed vitae eu risus elementum nunc. Sit tristique at aenean sollicitudin diam quam sed. Nunc non fringilla porta imperdiet neque gravida id proin. Massa morbi odio cras adipiscing gravida.\n\n## CONSECTETUR ADISPISCING\n\nNec risus in sapien integer pulvinar. Sit elementum sit lacus egestas. Condimentum sit vitae viverra ullamcorper adipiscing egestas. In aliquet vulputate donec nisl tellus, bibendum amet, risus. Turpis scelerisque massa.",
         "skills": [
             "ui-ux",
             "frontend"
@@ -19,6 +19,7 @@
         "image": "/images/projects/codear-jobs.png",
         "type": "permanent",
         "summary": "Queremos crear una plataforma de búsqueda laboral orientada a perfiles Trainee/Junior.",
+        "description": "",
         "skills": [
             "ui-ux",
             "frontend",
