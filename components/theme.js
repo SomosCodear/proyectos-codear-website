@@ -13,6 +13,7 @@ const theme = extendTheme({
             disco: '#a70050',
             shuttleGray: '#636466',
             silverSand: '#c7c8c4',
+            black: '#1f1f1f'
         },
     },
     components: {
@@ -56,6 +57,25 @@ const theme = extendTheme({
                     textTransform: 'uppercase',
                     fontSize: 'md',
                     letterSpacing: '1px'
+                },
+                projectTitle: {
+                    bg: 'white',
+                    color: 'codear.black',
+                    fontSize: '5xl',
+                    textAlign: 'center',
+                    padding: 12,
+                    position: 'relative',
+                    _after: {
+                        content: '""',
+                        display: 'block',
+                        position: 'absolute',
+                        border: '3px solid',
+                        borderColor: 'white',
+                        width: '100%',
+                        height: '100%',
+                        left: 4,
+                        top: 4
+                    },
                 }
             }
         }
